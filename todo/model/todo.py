@@ -26,3 +26,7 @@ class TodoBook:
         self.todos: dict() = {}
 
 
+    def add_todo(self, title:str, description: str) -> int:
+        id = len(self.todos) + 1
+
+
